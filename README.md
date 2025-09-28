@@ -7,7 +7,6 @@ In this example, we have temperature services that provide data in different uni
 
 ## Project Structure
 
-adapter-demo
 └── src
 
 └── adapter
