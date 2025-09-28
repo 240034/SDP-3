@@ -9,15 +9,18 @@ In this example, we have temperature services that provide data in different uni
 
 adapter-demo
 └── src
+
 └── adapter
+
 ├── TemperatureService.java // Target interface
+
 ├── CelsiusTemperatureService.java // Adaptee 1
+
 ├── KelvinTemperatureService.java // Adaptee 2
+
 ├── TemperatureAdapter.java // Object Adapter
+
 └── AdapterDemo.java // Demonstration
-
-
----
 
 ## Components
 
@@ -42,7 +45,7 @@ adapter-demo
 
 ```bash
 javac adapter/*.java
-java adapter.AdapterDemo
+java adapter.AdapterDemo```
 
 ## Expected Output
 Temperature in Farenheits: (from Celsius): 77.0
