@@ -45,7 +45,8 @@ adapter-demo
 
 ```bash
 javac adapter/*.java
-java adapter.AdapterDemo```
+java adapter.AdapterDemo
+```
 
 ## Expected Output
 Temperature in Farenheits: (from Celsius): 77.0
